@@ -1,0 +1,79 @@
+*{
+    font-family: 'Caveat', cursive;
+}
+body{
+    margin: 0;
+    width: 100%;
+
+}
+.main_container{
+  width: 30%;
+  height: 500px;
+  position: relative;
+  left: 450px;
+  top: 80px;
+  border-radius: 10px;
+  background-image: url(wether.jpeg);
+  background-size: 100% 600px;
+}
+.container_1{
+
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px;
+
+}
+.container_2{
+    display: flex;
+    justify-content: space-between;
+}
+input#search {
+    outline: 0;
+    border: 0;
+   color: rgb(50, 50, 50);
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+   
+}
+#btn1{
+    outline: 0;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(50, 50, 50);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    box-shadow: 1px 3px 3px  white;
+    cursor: pointer;
+}
+.temp{
+   
+    position: relative;
+    top: 68px;
+    font-size: 40px;
+}
+.city{
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+}
+
+h1,h2{
+    color: rgb(56, 53, 53);
+    
+}
+
+
+.container_4{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 120px;
+}
+.para1,.para2{
+    /* font-size: 25px; */
+    display: none;
+}
+
+
